@@ -7,4 +7,4 @@
     />
   </a>
 </li>`).join("");s.insertAdjacentHTML("beforeend",l);let d=new n(".gallery a",{captions:!0,captionsData:"alt",captionDelay:250,captionPosition:"bottom"});d.on("show.simplelightbox",function(i){console.log(`Open: ${i.target.querySelector("img").alt}`)});
-//# sourceMappingURL=1-gallety.js.map
+//# sourceMappingURL=1-gallery.js.map
